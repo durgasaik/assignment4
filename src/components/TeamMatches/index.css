@@ -1,0 +1,4 @@
+.recent-matches {
+  display: flex;
+  justify-content: space-between;
+}

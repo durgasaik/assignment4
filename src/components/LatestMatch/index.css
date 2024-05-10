@@ -1,0 +1,82 @@
+/* Write your CSS here */
+.latest-match-container {
+  margin-top: 20px;
+}
+
+.heading {
+  color: #ffffff;
+  font-size: 10px;
+  font-family: 'Bree Serif';
+}
+
+.match-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #0f172a;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .match-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.team-name {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 30px;
+}
+
+.date {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.match-details {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 15px;
+}
+
+.team-logo {
+  height: 40px;
+}
+
+.separator {
+  width: 100%;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .separator {
+    display: none;
+  }
+}
+
+.second-details {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .second-details {
+    width: 35%;
+    text-align: right;
+  }
+}
+
+.label {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Bree Serif';
+}
+
+.label-value {
+  color: #ffffff;
+  font-size: 15px;
+  font-family: 'Bree Serif';
+}
